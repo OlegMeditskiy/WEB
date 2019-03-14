@@ -2,28 +2,43 @@
 <html lang="sv">
 
 <head>
-    <meta charset="utf-8" http-equiv="Refresh" content="5" />
+    <meta charset="utf-8" http-equiv="Refresh" content="10000" />
     <title>First Web</title>
     <link rel="stylesheet" href="CSS/style.css">
-    <style>
-        a:link,
-        a:visited {
-            background-color: #f44336;
-            color: white;
-            padding: 15px 25px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-        }
-
-        a:hover,
-        a:active {
-            background-color: red;
-        }
-    </style>
+    
 </head>
 
 <body>
+<!--nav -->
+
+<nav style="width: 300px; height: 50px;"> 
+    <ul class="ul">
+        <li class="li"><a class="a" href="#home">Home</a></li>
+        <li class="li"><a class="a" href="#news">News</a></li>
+        <li class="li"><a  class="a"href="kontakt.html">Contact</a></li>
+        <li class="li"><a class="a" href="#about">About</a></li>
+    </ul>
+    </nav>
+    <main>
+        <section>
+            <h1>Rubrik</h1>
+            <p>Paragraph</p>
+        </section>
+    </main>
+    <aside>
+        <ul>
+            <li>
+                <h2>Rubrik</h2>
+                <p>text</p>
+            </li>
+        </ul>
+    </aside>
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+    <hr>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ffoJpIsQltY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <hr>
     <h1>Rubrik 1</h1>
     <h2>Rubrik 2</h2>
     <h3>Rubrik 3</h3>
@@ -31,19 +46,162 @@
     <h5>Rubrik 5</h5>
     <h6>Rubrik 6</h6>
 
+    <hr>
+    <table id="t01" style="width:100%">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+    </table>
+    <hr>
+    <table style="width:100%">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Telephone</th>
+        </tr>
+        <tr>
+            <td>Bill Gates</td>
+            <td>55577854</td>
+            <td>55577855</td>
+        </tr>
+    </table>
+    <hr>
+    <table style="width:100%">
+        <tr>
+            <th>Name:</th>
+            <td>Bill Gates</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telephone:</th>
+            <td>55577854</td>
+        </tr>
+        <tr>
+            <td>55577855</td>
+        </tr>
+    </table>
+    <hr>
+    <table style="width:100%">
+        <caption>Monthly savings</caption>
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$50</td>
+        </tr>
+    </table>
+    <hr>
+    <ul style="list-style-type:disc;">
+        <li>First item</li>
+        <li>Second item</li>
+    </ul>
+    <ul style="list-style-type:circle;">
+        <li>First item</li>
+        <li>Second item</li>
+    </ul>
+    <ul style="list-style-type:square;">
+        <li>First item</li>
+        <li>Second item</li>
+    </ul>
+    <ul style="list-style-type:none;">
+        <li>First item</li>
+        <li>Second item</li>
+    </ul>
+    <hr>
+    <ol type="1">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <ol type="A">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <ol type="a">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <ol type="I">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <ol type="i">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
 
+    <hr>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea
+            <ul>
+                <li>Black tea</li>
+                <li>Green tea</li>
+            </ul>
+        </li>
+        <li>Milk</li>
+    </ul>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea
+            <ul>
+                <li>Black tea</li>
+                <li>Green tea</li>
+            </ul>
+        </li>
+        <li>Milk</li>
+    </ul>
+    <hr>
+    <ol start="50">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <hr>
+    <picture>
+        <source media="(min-width: 650px)" srcset="images/el2.jpg">
+        <source media="(min-width: 465px)" srcset="images/el3.jpg">
+        <img src="images/el1.jpg" alt="Elephant" style="width:50%">
+    </picture>
+    <hr>
 
     <img src="images/av.gif" alt="avengers gif">
 
     <hr>
     <img src="images/workplace.jpg" alt="Workplace" usemap="#workmap">
 
-<map name="workmap">
-  <area shape="rect" coords="34,44,270,350" alt="Computer" href="Computer.html">
-  <area shape="rect" coords="290,172,333,250" alt="Phone" href="Phone.html">
-  <area shape="circle" coords="337,300,44" alt="Coffee" href="Coffee.html">
-</map>
-<hr>
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="Computer.html">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="Phone.html">
+        <area shape="circle" coords="337,300,44" alt="Coffee" href="Coffee.html">
+    </map>
+    <hr>
     <div id="D1" style="background-color: chartreuse; color: crimson">
         <p><img src="images/vk.png" alt="avengers gif" width="70%" height="70%"
                 style="float:right; width: 50px;height: 50px"> A paragraph for testing</p>
@@ -128,6 +286,74 @@
 </map>
 
 <body style="background-image:url('clouds.jpg');">
+
+    PICTURE
+
+    <picture>
+  <source media="(min-width: 650px)" srcset="img_pink_flowers.jpg">
+  <source media="(min-width: 465px)" srcset="img_white_flower.jpg">
+  <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+</picture>
+
+HTML Table - Adding Border Spacing
+table {
+  border-spacing: 5px;
+}
+
+<style>
+        a:link,
+        a:visited {
+            background-color: #f44336;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        a:hover,
+        a:active {
+            background-color: red;
+        }
+    </style>
+
+    <span>Hello</span>
+<span>World</span>
+
+<h2 class="city main">London</h2>
+<h2 class="city">Paris</h2>
+<h2 class="city">Tokyo</h2>
+
+SCRIPT
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script> 
+
+document.getElementById("demo").style.fontSize = "25px";
+document.getElementById("demo").style.color = "red";
+document.getElementById("demo").style.backgroundColor = "yellow";
+
+document.getElementById("image").src = "picture.gif";
+
+Если скрипты выключены у пользователя, тогда пишется noscript
+
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+
+ul.ul::after {
+  content: 'Pseudo';
+  width: 100px;
+  height: 100px;
+  background: black;
+  display: block;
+}
     -->
     <p style="color: blue; font-family: Verdana;font-size: 200%"> Blue Verdena text 300% size using color, font-family
         and font-size</p>
